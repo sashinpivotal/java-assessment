@@ -1,9 +1,11 @@
 ## Task 1.0
 - Create Java Maven project called "java-assessment"
-- Create GitHub respository called the same
+  locally using IntelliJ
+- Create GitHub respository with the same name
 - Sync up the local Maven project with the newly
   created GitHub repository
 - Provide the GitHub repository URL to the instructor
+  before moving on
 
 
 ## Task 1.1
