@@ -1,4 +1,6 @@
-## Task 1.0
+
+
+## Task 1.0: Create Maven project
 - Create Java Maven project called "java-assessment"
   locally using IntelliJ
 - Create GitHub respository with the same name
@@ -8,7 +10,7 @@
   before moving on
 
 
-## Task 1.1
+## Task 1.1: Create Person class
 - Create package called "org.humanity"
 - Create class "Person", with the following two fields
   with proper access modifiers
@@ -35,11 +37,11 @@ Person p1 = new Person();
   properties in a Person object if there are no setters 
   and only this no-arg constructor?
 
-## Task 1.2
+## Task 1.2: Write a new constructor
 - Write two argument constructor that takes "name" and "birthDate" 
   values
 
-## Task 1.3
+## Task 1.3: Write "toString()" method
 - Write (or generate) a toString() method.  If generating it, 
   they should change the generated code to use the getters 
   instead of direct field access. They should also use 
@@ -51,7 +53,7 @@ Person p1 = new Person();
   Explain why or why not?
 - What is the parent class whose method is being overriden?
 
-## Task 2.1
+## Task 2.1: Write client code
 - Create package "org.humanity.client" and in it, create 
   main-class "PersonClient".
 - Create 3 instances of "Person" class, providing "name" and 
