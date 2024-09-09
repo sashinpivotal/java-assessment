@@ -71,7 +71,7 @@ Craig	 11/5/1950	(p3)
 - Comment out the "toString()" method in the "Person" class
   and re-run the client code, explain the output
 
-## Task 3.1
+## Task 3.1: Write new methods
 - In the "Person" class, write two "eat()" methods: one "eat()"
   method  should print a message like 
   "<name> is eating their favorite food." and 
@@ -83,7 +83,7 @@ Craig	 11/5/1950	(p3)
 - What is this called, when you have two methods with the 
   same name in the same class?
 
-## Task 4.1
+## Task 4.1: Create enum
 - Create enum called "Food", to represent a constrained 
   set of food items: SALAD, CHICKEN, PASTA, FISH, FRUIT, NUTS
 - Refactor the "eat(String favoriteFood)" to use the "Food"
@@ -92,7 +92,7 @@ Craig	 11/5/1950	(p3)
   the output, so that it reads more naturally, i.e., 
   "<name> is eating salad" instead of "<name> is eating SALAD"?
 
-## Task 5.1
+## Task 5.1: Add a boolean field
 - In the "Person" class, add field "isVegetarian" and 
   getter/setter methods for it (which can be generated).
   did good w/boolean vegetarian field
@@ -105,7 +105,7 @@ Craig	 11/5/1950	(p3)
 ## Questions
 - In p1 (Jay) and p3 (Craig), "isVegetarian" is "false".  Why?
 
-## Task 6.1
+## Task 6.1: Use JDK-provided exception
 - If an instance of Person is vegetarian, they should not eat meat.  
   Makes sense! Are any of the foods specified in the Food 
   enum considered "meat?"  Yes – CHICKEN and FISH.
@@ -126,7 +126,7 @@ Craig	 11/5/1950	(p3)
 - Call the above "eat(..)" methods to "p1" and "p3".
   Do you experience exceptions? Why not?
 
-## Task 7.1
+## Task 7.1: Create a custom exception
 - We are now going to change eat(Food) to throw a custom (checked) exception.
 - Write custom exception class called "VegetarianException" (checked) 
   exception with the 4 usual constructors.
@@ -137,7 +137,7 @@ Craig	 11/5/1950	(p3)
 - Why do you have to catch the "VegetarianException" exception or
   adds "throws" clause to the the method signature?
 
-## Task 8.1
+## Task 8.1: Use LocalDate and Period classes
 - In the "Person" class, write "getAge()" method that returns
   the person's age in whole years (integer). 
   - This does not require any additional fields, the result 
@@ -147,10 +147,10 @@ Craig	 11/5/1950	(p3)
 - Test-drive this in this client – write code to produce an
   output "<name> is <age> years old."
 
-## Task 9.1
+## Task 9.1: Use collection object
 - Add support for food allergies – create custom checked exception 
   class called "FoodAllergyException", and add the following to 
-  "Person" class:
+  the "Person" class:
 
 ```java
     private Set<Food> allergyCausingFoods = new HashSet<>();          // Question: why use Set here?
