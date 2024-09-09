@@ -1,3 +1,11 @@
+## Task 1.0
+- Create Java Maven project called "java-assessment"
+- Create GitHub respository called the same
+- Sync up the local Maven project with the newly
+  created GitHub repository
+- Provide the GitHub repository URL to the instructor
+
+
 ## Task 1.1
 - Create package called "org.humanity"
 - Create class "Person", with the following two fields
