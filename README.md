@@ -32,7 +32,7 @@ You are going to perform the Java coding tasks mentioned below (with your screen
   property (no setters need to be written or
   generated)
 
-## Questions
+## Questions A
 - As currently written, how many constructors does this class have?
 - If the client code were written as below, what are the values 
   of "name" and "birthDate" fields?
@@ -55,7 +55,7 @@ Person p1 = new Person();
   "getClass().getSimpleName()" for the classname, instead of 
   hardcoding it. 
 
-## Questions
+## Questions B
 - In the above task, would you use @Override annotation? 
   Explain why or why not?
 - What is the parent class whose method is being overriden?
@@ -87,7 +87,7 @@ Craig	 11/5/1950	(use p3 as variable name)
   give as method argument.
 - Write client code that calls both of these methods
 
-## Questions
+## Questions C
 - What is this called, when you have two methods with the 
   same name in the same class as you did above?
 
@@ -109,7 +109,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Test-drive from client: make p2 (Kathryn) a vegetarian 
   by calling this new 3-argument constuctor.
 
-## Questions
+## Questions D
 - In p1 (Jay) and p3 (Craig), "isVegetarian" is "false".  Why?
 
 ## Task 6.1: Use JDK-provided exception
@@ -141,7 +141,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Change "eat(Food)" to throw "VegetarianException" instead of 
   "IllegalArgumentException" and handle compile errors accordingly
 
-## Questions
+## Questions E
 - Why do you have to catch the "VegetarianException" exception or
   adds "throws" clause to the the method signature?
 
