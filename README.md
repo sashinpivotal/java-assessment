@@ -173,3 +173,6 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Test-drive this in this client – write code to produce an
   output "\<name\> is \<age\> years old."
 
+## Task 9: Push your code to your GitHub repo
+- Commit all chagnes and push it to the GitHub repo
+
