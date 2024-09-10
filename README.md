@@ -77,6 +77,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Run the client code and explain the output
 - Comment out the "toString()" method in the "Person" class
   and re-run the client code, explain the output
+- Uncomment the "toString()" method
 
 ## Task 3.1: Write methods
 - In the "Person" class, write two "eat()" methods: one "eat()"
@@ -84,20 +85,22 @@ Craig	 11/5/1950	(use p3 as variable name)
   "<name> is eating their favorite food." and 
   the other "eat(String favoriteFood)" method should be similar, 
   except that it also prints the name of the favorite food
-  give as method argument.
-- Write client code that calls both of these methods
+  given as a method argument.
+- Write client code that calls both of these methods using
+  p1 (Jay) variable
 
 ## Questions C
-- What is this called, when you have two methods with the 
-  same name in the same class as you did above?
+- In the above task, you have created two methods with the 
+  same name in the same class. What is that called?
 
 ## Task 4.1: Create enum
 - Create enum called "Food", to represent a constrained 
   set of food items: SALAD, CHICKEN, PASTA, FISH, FRUIT, NUTS
-- Refactor the "eat(String favoriteFood)" to use the "Food"
+- Refactor the "eat(String favoriteFood)" method to use the "Food"
   enum
-- Refactor the code so that the "eat(Food)" method to format 
-  the output to use the lower case, i.e., 
+  - Fix compile error in the PersonClient and run it
+- Refactor the code so that the "eat(Food favoriteFood)" method  
+  to format the output to use the lower case, i.e., 
   "<name> is eating salad" instead of "<name> is eating SALAD"?
 
 ## Task 5.1: Add a boolean field
