@@ -152,7 +152,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 	p2.eat(Food.NUTS);	// not reached
 ```
 - Explain what happened
-- Call the above "eat(..)" method to "p1" and "p3".
+- Call the above three "eat(..)" methods to "p1" or "p3".
   Do you experience exceptions? Why not?
 
 ## Task 7.1: Create a custom exception
