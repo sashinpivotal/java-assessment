@@ -1,6 +1,6 @@
 # Java Assessment Instruction
 
-You are going to perform the Java coding tasks mentioned below (with your screen shared) and answer questions to your instructor.  You are allowed to finish these tasks in 3 hour period but if you are welcome to finish earlier.
+You are going to perform the Java coding tasks as described below (with your screen shared) and answer related questions to your instructor.  You are allowed to finish these tasks in 3 hour period but you are welcome to finish earlier.
 
 ## Task 1.0: Create Maven project
 - Create Java Maven project called "java-assessment"
@@ -116,17 +116,18 @@ Craig	 11/5/1950	(use p3 as variable name)
 - In p1 (Jay) and p3 (Craig), "isVegetarian" is "false".  Why?
 
 ## Task 6.1: Use JDK-provided exception
-- If an instance of Person is vegetarian, they should not eat meat.  
-  (Makes sense!) Are any of the foods specified in the Food 
-  enum considered "meat?"  Yes – CHICKEN and FISH.
-- How should we handle this situation, when a client calls 
-  "eat(enum Food)" on a vegetarian Person, passing in a
-  "meat" item?
+- (Background info)
+  - If an instance of Person is vegetarian, they should not eat meat.  
+    (Makes sense!) Are any of the foods specified in the Food 
+    enum considered "meat?"  Yes – CHICKEN and FISH.
+  - How should we handle the situation, in which a client calls 
+    "eat(enum Food)" on a vegetarian Person, passing in a
+    "meat" item? Yes, correct. You throw an exception.
 - Refactor the "eat(Food)" method accordingly throwing 
-  "IllegalArgumentException" to handle the case above.
+  JDK-provided "IllegalArgumentException" to handle the case above.
 - Did you have to catch "IllegalArgumentException" or uses
   "throws" clause on the method signature?  Why or why not?
-- Write test client code that checks the above on p2 (Kathryn), 
+- Writ client code that checks the above on p2 (Kathryn), 
   who is vegetarian as shown below
 
 ```java
@@ -134,15 +135,18 @@ Craig	 11/5/1950	(use p3 as variable name)
 	p2.eat(Food.CHICKEN);	// exception
 	p2.eat(Food.NUTS);	// not reached
 ```
+- Explain what happened
 - Call the above "eat(..)" method to "p1" and "p3".
   Do you experience exceptions? Why not?
 
 ## Task 7.1: Create a custom exception
-- We are now going to change eat(Food) to throw a custom (checked) exception.
+- We are now going to change "eat(Food favoriteFood)" to throw a
+  custom (checked) exception.
 - Write custom exception class called "VegetarianException" (checked) 
   exception with the 4 usual constructors.
 - Change "eat(Food)" to throw "VegetarianException" instead of 
   "IllegalArgumentException" and handle compile errors accordingly
+- Handle compiler error accordingly
 
 ## Questions E
 - Why do you have to catch the "VegetarianException" exception or
@@ -151,34 +155,10 @@ Craig	 11/5/1950	(use p3 as variable name)
 ## Task 8.1: Use LocalDate and Period classes
 - In the "Person" class, write "getAge()" method that returns
   the person's age in whole years (integer). 
-  - This does not require any additional fields, the person's  
-    age can be calculated.
+  - This does not require any additional field, because the  
+    person's age can be calculated.
   - Take a look at the Javadoc of "LocalDate" class and
     "Period" class if necessary
 - Test-drive this in this client – write code to produce an
   output "\<name\> is \<age\> years old."
 
-## Task 9.1: Use collection object
-- Add support for food allergies – create custom checked exception 
-  class called "FoodAllergyException", and add the following to 
-  the "Person" class:
-
-```java
-    private Set<Food> allergyCausingFoods = new HashSet<>();          // Question: why use Set here?
-	
-	public void addFoodAllergy(Food food) {
-      allergyCausingFoods.add(food);
-	}
-	
-	public void eat(Food food) throws FoodAllergyException {
-        
-        // existing code
-      
-        // new code
-        if (allergyCausingFoods.contains(food)) {
-            throw new FoodAllergyException(getName() + " is allergic to " + food);
-        }
-    }
-```
-
-- Write client code that tests the above logic
