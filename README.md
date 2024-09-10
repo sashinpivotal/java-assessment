@@ -13,7 +13,7 @@ BTW, only the following topics are covered in this assessment:
 - Throwing JDK-provided and custom exceptions,
   and handling them in client-side code
 
-## Task 1.0: Create Maven project
+## Task 1.0: Create Maven project (skip this step if you already have done so)
 - Create Java Maven project called "java-assessment"
   locally using IntelliJ
 - Create GitHub repository with the same name
