@@ -140,10 +140,10 @@ Craig	 11/5/1950	(use p3 as variable name)
 ## Task 8.1: Use LocalDate and Period classes
 - In the "Person" class, write "getAge()" method that returns
   the person's age in whole years (integer). 
-  - This does not require any additional fields, the result 
-    can be calculated.
+  - This does not require any additional fields, the person's  
+    age can be calculated.
   - Take a look at the Javadoc of "LocalDate" class and
-    "Period" class
+    "Period" class if necessary
 - Test-drive this in this client – write code to produce an
   output "\<name\> is \<age\> years old."
 
