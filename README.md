@@ -1,11 +1,19 @@
+# Java Assessment Instruction
 
+You are going to perform the Java coding tasks mentioned below (with your screen shared) and answer questions to your instructor.  You are allowed to finish these tasks in 3 hour period but if you are welcome to finish earlier.
 
 ## Task 1.0: Create Maven project
 - Create Java Maven project called "java-assessment"
   locally using IntelliJ
 - Create GitHub respository with the same name
+  with default values of all the other options
+  - DO NOT select "Add a README file"
+  - DO NOT add .gitignore file
 - Sync up the local Maven project with the newly
   created GitHub repository
+  - "git remote add origin <your-github-repo>"
+  - "git branch -M main" (if your main branch is not "main")
+  - "git push -u origin main"
 - Provide the GitHub repository URL to the instructor
   before moving on
 
