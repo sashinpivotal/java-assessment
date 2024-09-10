@@ -1,6 +1,9 @@
 # Java Assessment Instruction
 
-You are going to perform the Java coding tasks as described below (with your screen shared) and answer related questions to your instructor.  You are allowed to finish these tasks in 3 hour period but you are welcome to finish earlier.
+- You are going to perform the Java coding tasks as described below (with your screen shared) and answer related questions to your instructor.
+  - Your instructor is not watching you every second. S/he is here to answer any logistics-related questions you might have.
+  - You can let your instructor know when each time you are done with a task.)
+- You are allowed to finish these tasks in 3 hour period but you are welcome to finish it earlier.
 
 BTW, only the following topics are covered in this assessment:
 
