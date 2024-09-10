@@ -16,7 +16,7 @@ BTW, only the following topics are covered in this assessment:
 ## Task 1.0: Create Maven project
 - Create Java Maven project called "java-assessment"
   locally using IntelliJ
-- Create GitHub respository with the same name
+- Create GitHub repository with the same name
   with default values of all the other options
   - DO NOT select "Add a README file"
   - DO NOT add .gitignore file
