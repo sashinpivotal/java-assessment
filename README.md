@@ -106,23 +106,24 @@ Craig	 11/5/1950	(use p3 as variable name)
 
 ## Task 6.1: Use JDK-provided exception
 - If an instance of Person is vegetarian, they should not eat meat.  
-  Makes sense! Are any of the foods specified in the Food 
+  (Makes sense!) Are any of the foods specified in the Food 
   enum considered "meat?"  Yes – CHICKEN and FISH.
 - How should we handle this situation, when a client calls 
-  "eat(enum Food)" on a vegetarian Person, passing in a "meat" item?
+  "eat(enum Food)" on a vegetarian Person, passing in a
+  "meat" item?
 - Refactor the "eat(Food)" method accordingly throwing 
   "IllegalArgumentException" to handle the case above.
 - Did you have to catch "IllegalArgumentException" or uses
   "throws" clause on the method signature?  Why or why not?
 - Write test client code that checks the above on p2 (Kathryn), 
-  who is vegetarian
+  who is vegetarian as shown below
 
 ```java
 	p2.eat(Food.SALAD);
 	p2.eat(Food.CHICKEN);	// exception
 	p2.eat(Food.NUTS);	// not reached
 ```
-- Call the above "eat(..)" methods to "p1" and "p3".
+- Call the above "eat(..)" method to "p1" and "p3".
   Do you experience exceptions? Why not?
 
 ## Task 7.1: Create a custom exception
