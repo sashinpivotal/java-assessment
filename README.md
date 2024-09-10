@@ -62,9 +62,9 @@ Person p1 = new Person();
   the following as values of "name" and "birthDate".  
 
 ```
-Jay		 12/5/1966	(p1)
-Kathryn	 7/26/1977	(p2)
-Craig	 11/5/1950	(p3)
+Jay      12/5/1966	(use p1 as variable name)
+Kathryn	 7/26/1977	(use p2 as variable name)
+Craig	 11/5/1950	(use p3 as variable name)
 ```
 
 - Run the client code and explain the output
