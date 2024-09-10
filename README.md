@@ -168,7 +168,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Why do you have to catch the "VegetarianException" exception or
   adds "throws" clause to the the method signature?
 
-## Task 8.1: Use LocalDate and Period classes
+## Task 8.1: Compute person's age
 - In the "Person" class, write "getAge()" method that returns
   the person's age in whole years (integer). 
   - This does not require any additional field, because the  
