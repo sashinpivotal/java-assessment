@@ -133,8 +133,8 @@ Craig	 11/5/1950	(use p3 as variable name)
 
 ## Task 6.1: Use JDK-provided exception
 - (Background info)
-  - If an instance of Person is vegetarian, they should not eat meat.  
-    (Makes sense!) Are any of the foods specified in the Food 
+  - If an instance of Person is vegetarian, they should NOT eat meat.
+  - Are any of the foods specified in the Food 
     enum considered "meat?"  Yes – CHICKEN and FISH.
   - How should we handle the situation, in which a client calls 
     "eat(enum Food)" on a vegetarian Person, passing in a
