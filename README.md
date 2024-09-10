@@ -1,5 +1,7 @@
 # Java Assessment Instruction
 
+A few words before we start:
+
 - You are going to perform the Java coding tasks as described below (with your screen shared) and answer related questions to your instructor.
   - Your instructor is not watching you every second. S/he is here to answer any logistics-related questions you might have.
   - You can let your instructor know when each time you are done with a task.)
