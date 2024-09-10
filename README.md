@@ -2,6 +2,17 @@
 
 You are going to perform the Java coding tasks as described below (with your screen shared) and answer related questions to your instructor.  You are allowed to finish these tasks in 3 hour period but you are welcome to finish earlier.
 
+BTW, only the following topics are covered in this assessment:
+
+- Data encapsulation, constructors
+- Constructor and method overloading
+- toString() and method overriding
+- Basic java.time classes (LocalDate and Period)
+- Enum types (simple)
+- Basic boolean logic
+- Throwing JDK-provided and custom exceptions,
+  and handling them in client-side code
+
 ## Task 1.0: Create Maven project
 - Create Java Maven project called "java-assessment"
   locally using IntelliJ
