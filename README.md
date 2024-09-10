@@ -121,7 +121,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 ```java
 	p2.eat(Food.SALAD);
 	p2.eat(Food.CHICKEN);	// exception
-	p2.eat(Food.NUTS);		// not reached
+	p2.eat(Food.NUTS);	// not reached
 ```
 - Call the above "eat(..)" methods to "p1" and "p3".
   Do you experience exceptions? Why not?
