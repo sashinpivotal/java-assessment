@@ -144,7 +144,7 @@ Craig	 11/5/1950	(use p3 as variable name)
   - Take a look at the Javadoc of "LocalDate" class and
     "Period" class
 - Test-drive this in this client – write code to produce an
-  output "<name> is <age> years old."
+  output "\<name\> is \<age\> years old."
 
 ## Task 9.1: Use collection object
 - Add support for food allergies – create custom checked exception 
