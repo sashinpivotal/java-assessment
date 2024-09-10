@@ -12,7 +12,7 @@
 
 ## Task 1.1: Create Person class
 - Create package called "org.humanity"
-- Create class "Person", with the following two fields
+- Write "Person" class, with the following two fields
   with proper access modifiers
 
 ```java
@@ -27,26 +27,25 @@
 ## Questions
 - As currently written, how many constructors does this class have?
 - If the client code were written as below, what are the values 
-  of "name" and "birthDate"?
+  of "name" and "birthDate" fields?
 
 ```java
 Person p1 = new Person();
 ```
 
 - How will the client specify values for the "name" and "birthDate" 
-  properties in a Person object if there are no setters 
-  and only this no-arg constructor?
+  properties in a Person object if there are no setters?
 
 ## Task 1.2: Write a new constructor
 - Write two argument constructor that takes "name" and "birthDate" 
-  values
+  as arguments
 
 ## Task 1.3: Write "toString()" method
-- Write (or generate) a toString() method.  If generating it, 
-  they should change the generated code to use the getters 
-  instead of direct field access. They should also use 
-  getClass().getSimpleName() for the classname, instead of 
-  hardcoding it.  Step in and explain this last bit, if necessary.
+- Write (or generate via IDE) a toString() method.  If generating it, 
+  change the generated code to use the getters 
+  instead of direct field access. Also use 
+  "getClass().getSimpleName()" for the classname, instead of 
+  hardcoding it. 
 
 ## Questions
 - In the above task, would you use @Override annotation? 
@@ -57,7 +56,7 @@ Person p1 = new Person();
 - Create package "org.humanity.client" and in it, create 
   main-class "PersonClient".
 - Create 3 instances of "Person" class, providing "name" and 
-  "birthDate" as constructor arguments, and call "toString()" 
+  "birthDate" values as constructor arguments, and call "toString()" 
   on each, printing the returned string from each call. Use
   the following as values of "name" and "birthDate".  
 
@@ -71,17 +70,18 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Comment out the "toString()" method in the "Person" class
   and re-run the client code, explain the output
 
-## Task 3.1: Write new methods
+## Task 3.1: Write methods
 - In the "Person" class, write two "eat()" methods: one "eat()"
-  method  should print a message like 
+  method should print a message like 
   "<name> is eating their favorite food." and 
-  the other method "eat(String favoriteFood)" should be similar, 
-  except that it also prints the name of the food specified.
+  the other "eat(String favoriteFood)" method should be similar, 
+  except that it also prints the name of the favorite food
+  give as method argument.
 - Write client code that calls both of these methods
 
 ## Questions
 - What is this called, when you have two methods with the 
-  same name in the same class?
+  same name in the same class as you did above?
 
 ## Task 4.1: Create enum
 - Create enum called "Food", to represent a constrained 
@@ -89,14 +89,13 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Refactor the "eat(String favoriteFood)" to use the "Food"
   enum
 - Refactor the code so that the "eat(Food)" method to format 
-  the output, so that it reads more naturally, i.e., 
+  the output to use the lower case, i.e., 
   "<name> is eating salad" instead of "<name> is eating SALAD"?
 
 ## Task 5.1: Add a boolean field
-- In the "Person" class, add field "isVegetarian" and 
-  getter/setter methods for it (which can be generated).
-  did good w/boolean vegetarian field
-- Include this property in the "toString()" method.
+- In the "Person" class, add boolean field called "isVegetarian"  
+  and getter/setter methods for it (which can be generated).
+- Include this property to the "toString()" method.
 - Add another constructor for this new property, i.e., 
   a 3-argument constructor (name, birthDate, isVegetarian).
 - Test-drive from client: make p2 (Kathryn) a vegetarian 
