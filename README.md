@@ -98,7 +98,7 @@ Craig	 11/5/1950	(use p3 as variable name)
 ## Task 3.1: Write methods
 - In the "Person" class, write two "eat()" methods: one "eat()"
   method should print a message like 
-  "<name> is eating their favorite food." and 
+  "\<name\> is eating their favorite food." and 
   the other "eat(String favoriteFood)" method should be similar, 
   except that it also prints the name of the favorite food
   given as a method argument.
