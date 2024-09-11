@@ -142,7 +142,8 @@ Craig	 11/5/1950	(use p3 as variable name)
 - Refactor the "eat(Food)" method accordingly throwing 
   JDK-provided "IllegalArgumentException" to handle the case above.
 - Did you have to catch "IllegalArgumentException" or uses
-  "throws" clause on the method signature?  Why or why not?
+  "throws" clause on the method signature in order not
+  to experience a compile error?  Why or why not?
 - Writ client code that checks the above on p2 (Kathryn), 
   who is vegetarian as shown below
 
@@ -166,7 +167,8 @@ Craig	 11/5/1950	(use p3 as variable name)
 
 ## Questions E
 - Why do you have to catch the "VegetarianException" exception or
-  adds "throws" clause to the the method signature?
+  adds "throws" clause to the the method signature in order not
+  to experience a compile error?
 
 ## Task 8.1: Compute person's age
 - In the "Person" class, write "getAge()" method that returns
